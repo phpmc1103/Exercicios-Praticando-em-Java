@@ -1,3 +1,6 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 public class Exercicio7 {
     //Um sistema de cadastro exige que os usuários informem um nome válido. No entanto, alguns usuários
     //tentam deixar o campo em branco ou inserir nomes muito curtos. O sistema precisa garantir que o nome tenha pelo menos 3 caracteres
@@ -17,6 +20,18 @@ public class Exercicio7 {
     //
     //Nome "Ana" cadastrado com sucesso!
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String nome;
 
+        do {
+            System.out.print("Digite seu nome: ");
+            nome = scan.nextLine();
+
+            if (nome.length() < 3) {
+                System.out.println("Nome inválido. Digite novamente. ");
+            }
+        } while(nome.length() < 3);
+
+        System.out.println("Nome \"" + nome + "\" cadastrado com sucesso!");
     }
 }
