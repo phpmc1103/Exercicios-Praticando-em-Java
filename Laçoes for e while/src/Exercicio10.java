@@ -31,29 +31,18 @@ public class Exercicio10 {
         List<String> lista = new ArrayList<>();
         String nome;
 
-
         while (true) {
-            boolean jaExiste = false;
             System.out.print("Digite o nome do convidado (ou 'ver' para visualizar a lista, 'sair' para terminar): ");
             nome = scan.nextLine();
             if (nome.equals("sair")) break;
             else if (nome.equals("ver")) {
                 System.out.println("Lista de convidados: " + lista);
-
             } else {
-                for (String nomes : lista) {
-                    if (nome.equalsIgnoreCase(nomes)) {
-                        jaExiste = true;
-                        break;
-                    }
+                for (String nomes : lista){
+                    if(nome.equalsIgnoreCase(nomes)) System.out.println("O nome" + nome + " já está na lista de convidados.");
                 }
-                    if(jaExiste){
-                        System.out.println("O nome " + nome + " já está na lista de convidados.");
-                    }else {
-                        lista.add(nome);
-                        System.out.println(nome + " foi adicionado à lista de convidados.");
-                }
-
+                lista.add(nome);
+                System.out.println(nome + " foi adicionado à lista de convidados.");
             }
         }
 
