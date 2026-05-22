@@ -1,3 +1,8 @@
+import java.time.Duration;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Scanner;
+
 public class Exercicio10 {
     //Você trabalha no setor administrativo de uma empresa e precisa
     // de um sistema para acompanhar os horários de entrada e saída dos funcionários.
@@ -52,6 +57,29 @@ public class Exercicio10 {
     //
     //Saldo de horas: -0h 30min
     public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm");
+
+        System.out.print("Digite o horário de entrada (HH:mm): ");
+        LocalTime entrada = LocalTime.parse(scanner.next(), formatter);
+
+        System.out.print("Digite a carga horária diária em horas: ");
+        long horas = scanner.nextLong();
+        System.out.print("Digite o horário real de saída(HH:mm):  ");
+        LocalTime saida = LocalTime.parse(scanner.next(),formatter);
+
+        LocalTime saidaPrevista = entrada.plusHours(horas);
+
+        Duration saldoDuration = Duration.between(saidaPrevista,saida);
+        long saldoHoras = saldoDuration.toHours();
+        long saldoMiutos = saldoDuration.toMinutesPart();
+        String sinal = saldoHoras >= 0 ? "+" : "";
+
+        System.out.println("Horário de entrada: "+entrada);
+        System.out.println("Horário de saída previsto: "+saidaPrevista);
+        System.out.println("Horário real de saída: "+saida);
+        System.out.println("Saldo de horas: " + sinal + saldoHoras + "h " + saldoMiutos + "min");
 
     }
 }
