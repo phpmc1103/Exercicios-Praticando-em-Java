@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Condicionais/Condicionais.iml" filepath="$PROJECT_DIR$/Condicionais/Condicionais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data e Hora/Data e Hora.iml" filepath="$PROJECT_DIR$/Data e Hora/Data e Hora.iml" />
       <module fileurl="file://$PROJECT_DIR$/Laçoes for e while/La.iml" filepath="$PROJECT_DIR$/Laçoes for e while/La.iml" />
       <module fileurl="file://$PROJECT_DIR$/Praticando Java.iml" filepath="$PROJECT_DIR$/Praticando Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Variaveis e Tipos/Variaveis e Tipos.iml" filepath="$PROJECT_DIR$/Variaveis e Tipos/Variaveis e Tipos.iml" />
