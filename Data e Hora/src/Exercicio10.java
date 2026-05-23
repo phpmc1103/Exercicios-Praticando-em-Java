@@ -73,13 +73,14 @@ public class Exercicio10 {
 
         Duration saldoDuration = Duration.between(saidaPrevista,saida);
         long saldoHoras = saldoDuration.toHours();
-        long saldoMiutos = saldoDuration.toMinutesPart();
-        String sinal = saldoHoras >= 0 ? "+" : "";
+        long saldoMinutos = Math.abs(saldoDuration.toMinutesPart());
+        String sinal = "";
+        if(saldoHoras >= 0) sinal = "+";
 
         System.out.println("Horário de entrada: "+entrada);
         System.out.println("Horário de saída previsto: "+saidaPrevista);
         System.out.println("Horário real de saída: "+saida);
-        System.out.println("Saldo de horas: " + sinal + saldoHoras + "h " + saldoMiutos + "min");
+        System.out.println("Saldo de horas: " + sinal + saldoHoras + "h " + saldoMinutos + "min");
 
     }
 }
