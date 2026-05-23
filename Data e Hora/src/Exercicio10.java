@@ -75,7 +75,7 @@ public class Exercicio10 {
         long saldoHoras = saldoDuration.toHours();
         long saldoMinutos = Math.abs(saldoDuration.toMinutesPart());
         String sinal = "";
-        if(saldoHoras >= 0) sinal = "+";
+        if(saldoHoras >= 0) sinal = "+" ;
 
         System.out.println("Horário de entrada: "+entrada);
         System.out.println("Horário de saída previsto: "+saidaPrevista);
