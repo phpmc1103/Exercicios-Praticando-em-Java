@@ -31,5 +31,20 @@ package Exercicio6;
 public class Main {
     public static void main(String[] args) {
 
+        Colaborador colaborador1 = new Colaborador();
+        colaborador1.nome ="Júlia Oliveira";
+        colaborador1.cargo = "Pessoa Desenvolvedora Júnior";
+        colaborador1.nivelDeAcesso = 1;
+        System.out.println("\n--- Antes da atualização ---");
+        System.out.println("Nome: " +colaborador1.nome);
+        System.out.println("Cargo: "+colaborador1.cargo);
+        System.out.println("Nível de acesso: "+colaborador1.nivelDeAcesso);
+
+        colaborador1.mudar("Pessoa Desenvolvedora Plena",2);
+        System.out.println("\n--- Após a atualização ---");
+        System.out.println("Nome: " +colaborador1.nome);
+        System.out.println("Cargo: "+colaborador1.cargo);
+        System.out.println("Nível de acesso: "+colaborador1.nivelDeAcesso);
+
     }
 }
