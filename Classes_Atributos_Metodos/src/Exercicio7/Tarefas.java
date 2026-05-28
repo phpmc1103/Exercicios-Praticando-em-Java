@@ -1,17 +1,24 @@
 package Exercicio7;
 
 public class Tarefas {
-    String descricao;
-    boolean concluida;
-    String resultado;
+    private String descricao;
+    private boolean concluida;
 
-    public void status(){
-        if (concluida){
-           resultado = "Concluída";
-        }else {
-          resultado = "Pendente";
-        }
-        System.out.println("Tarefa: "+descricao+ " -  Status: "+resultado);
+    public Tarefas(String descricao, boolean concluida) {
+        this.descricao = descricao;
+        this.concluida = concluida;
+    }
+
+
+    public void status () {
+            String resultado;
+            if (concluida) {
+                resultado = "Concluída";
+            } else {
+                resultado = "Pendente";
+            }
+            System.out.println("Tarefa: " + descricao + " -  Status: " + resultado);
 
     }
 }
+
