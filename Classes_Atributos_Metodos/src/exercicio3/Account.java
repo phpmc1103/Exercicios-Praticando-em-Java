@@ -1,4 +1,4 @@
-package exercicio3;
+package Exercicio3;
 
 public class Account {
     double balance;

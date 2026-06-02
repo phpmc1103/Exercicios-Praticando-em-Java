@@ -1,4 +1,4 @@
-package exercicio2;
+package Exercicio2;
 //Imagine que você está criando um sistema de catalogação para uma biblioteca.
 // Seu objetivo é desenvolver uma estrutura que armazene dados de obras literárias e as exiba em um formato padronizado,
 // facilitando a consulta por outros leitores.

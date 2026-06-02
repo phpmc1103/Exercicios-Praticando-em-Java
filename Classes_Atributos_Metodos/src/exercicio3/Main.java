@@ -1,4 +1,4 @@
-package exercicio3;
+package Exercicio3;
 //Imagine que você está desenvolvendo um sistema de conta digital onde os usuários podem realizar transações financeiras.
 // Em determinadas situações, como encerramento de conta, é necessário zerar o saldo disponível.
 //

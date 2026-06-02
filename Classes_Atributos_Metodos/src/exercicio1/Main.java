@@ -1,4 +1,4 @@
-package exercicio1;
+package Exercicio1;
 //Imagine que você é responsável pelo controle de estoque de uma loja de
 // informática que está expandindo seus negócios. Com o aumento da demanda,
 // é importante manter um registro organizado e preciso de todos os produtos disponíveis.
