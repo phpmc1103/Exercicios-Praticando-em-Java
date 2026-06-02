@@ -1,4 +1,4 @@
-package Exercicio6;
+package exercicio6;
 //Você está desenvolvendo um sistema de controle de colaboradores para uma empresa de tecnologia.
 // Às vezes, é necessário atualizar o cargo e o nível de acesso de um funcionário devido a promoções ou
 // mudanças de departamento. Seu programa deve permitir essas alterações e mostrar as informações atualizadas.

@@ -1,4 +1,4 @@
-package Exercicio8;
+package exercicio8;
 //Você está desenvolvendo um sistema de gerenciamento para uma loja de roupas e precisa garantir que o estoque
 // seja atualizado corretamente a cada venda realizada. Seu programa deve processar as vendas e alertar quando
 // não houver produtos suficientes no estoque.

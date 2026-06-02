@@ -1,4 +1,4 @@
-package Exercicio7;
+package exercicio7;
 //Você está desenvolvendo um sistema de gerenciamento de tarefas pessoais para ajudar usuários
 // a organizar suas atividades diárias. Cada tarefa precisa ser registrada com uma descrição e um status que indique
 // se já foi concluída ou não. Seu objetivo é criar uma estrutura que armazene essas tarefas e permita visualizá-las.

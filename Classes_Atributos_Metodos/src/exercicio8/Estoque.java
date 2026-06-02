@@ -1,4 +1,4 @@
-package Exercicio8;
+package exercicio8;
 
 public class Estoque {
     String nome;

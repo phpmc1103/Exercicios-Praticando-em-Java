@@ -1,4 +1,4 @@
-package Exercicio7;
+package exercicio7;
 
 public class Tarefas {
     private String descricao;

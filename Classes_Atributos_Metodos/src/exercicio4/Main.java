@@ -1,4 +1,4 @@
-package Exercicio4;
+package exercicio4;
 //Imagine que você faz parte de uma equipe de agricultura tecnológica responsável
 // por monitorar estufas inteligentes. Cada setor possui sensores que coletam dados críticos para o crescimento das plantas.
 // Seu desafio é desenvolver um sistema que não apenas registre a temperatura, mas também alerte quando

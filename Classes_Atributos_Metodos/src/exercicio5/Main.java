@@ -1,4 +1,4 @@
-package Exercicio5;
+package exercicio5;
 //Imagine que você está desenvolvendo um sistema acadêmico simplificado para auxiliar
 // professores no acompanhamento de alunos. Seu desafio é criar uma solução que automatize o cálculo de
 // médias e forneça rapidamente o resultado, eliminando a necessidade de cálculos manuais e reduzindo erros.

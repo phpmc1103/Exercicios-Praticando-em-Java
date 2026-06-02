@@ -1,4 +1,4 @@
-package Exercicio9;
+package exercicio9;
 
 //Imagine que você está desenvolvendo um sistema de controle de devoluções para uma livraria.
 // Quando um livro é devolvido com atraso, é necessário calcular o valor da multa conforme os dias de atraso.
