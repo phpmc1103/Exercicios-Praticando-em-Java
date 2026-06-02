@@ -1,4 +1,4 @@
-package Exercicio4;
+package exercicio4;
 
 public class Department {
     String location;
