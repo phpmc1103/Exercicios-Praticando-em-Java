@@ -6,8 +6,6 @@ import java.util.List;
 public class Filme {
     private String titulo;
     private List<Integer> notas;
-    private double media = 0;
-    private int contador = 1;
 
     public Filme(String titulo) {
         this.titulo = titulo;
@@ -22,8 +20,12 @@ public class Filme {
         }
     }
         public double calcularMedia(){
+            double media = 0;
+            int contador = 1;
+            double soma = 0;
         for(int e : notas) {
-            this.media = (this.media + e)/contador;
+            soma += e;
+            media = soma / contador;
             contador++;
         }
         return media;

@@ -33,7 +33,7 @@ public class Main {
         matrix.adicionarAvaliacao(3);
         matrix.adicionarAvaliacao(4);
 
-        matrix.calcularMedia();
+        System.out.println(matrix.calcularMedia());
 
     }
 }
