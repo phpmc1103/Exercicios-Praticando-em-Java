@@ -29,8 +29,27 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Conta conta1 = new Conta("aluno2025","escola@123");
+        boolean autenticacao = false;
 
+        for (int i = 0; i < 3; i++) {
 
+            int tentativas = 3 - i - 1;
+            System.out.print("Login: ");
+            String tentativaDeLogin = scan.nextLine();
+            System.out.print("Senha: ");
+            String tentativaDeSenha = scan.nextLine();
+            if(conta1.validarSenha(tentativaDeLogin, tentativaDeSenha)){
+                System.out.println("Login bem-sucedido!");
+                autenticacao = true;
+                break;
+            }else {
+                System.out.println("Senha incorreta. Tentativas restantes: "+tentativas);
 
+            }
+        }
+
+        if(!autenticacao){
+            System.out.println("Acesso bloqueado após 3 tentativas.");
+        }
     }
 }

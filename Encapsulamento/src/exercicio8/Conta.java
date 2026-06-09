@@ -8,7 +8,8 @@ public class Conta {
         this.login = login;
         this.senha = senha;
     }
-    public void validarSenha(){
-        System.out.println("Login bem-sucedido!");
+
+    public boolean validarSenha(String login, String senha) {
+        return this.login.equals(login) && this.senha.equals(senha);
     }
 }
