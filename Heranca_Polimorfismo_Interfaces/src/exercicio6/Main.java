@@ -1,5 +1,6 @@
 package exercicio6;
-//Você está desenvolvendo um sistema de comunicação para uma plataforma de colaboração em equipe. Esse sistema precisa lidar com diferentes cenários de envio de mensagens.
+//Você está desenvolvendo um sistema de comunicação para uma plataforma de colaboração em equipe.
+//Esse sistema precisa lidar com diferentes cenários de envio de mensagens.
 //
 //Crie um programa que utilize sobrecarga de métodos para implementar as seguintes variações:
 //
@@ -21,6 +22,11 @@ package exercicio6;
 
 public class Main {
     public static void main(String[] args) {
+
+        Notificacao notificacao = new Notificacao();
+        notificacao.enviarMensagem("Olá");
+        notificacao.enviarMensagem("João", "Bom dia!");
+        notificacao.enviarMensagem("Maria", "Atenção!", 2);
 
     }
 }
