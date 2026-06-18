@@ -14,8 +14,6 @@ package exercicio7;
 // imprimindo uma mensagem exclusiva: "Reserva VIP confirmada com atendimento exclusivo"
 //Exemplo de entrada:
 //
-//
-//Copiar
 //Reserva r = new Reserva();
 //r.reservar();
 //r.reservar("10/04");
@@ -26,8 +24,6 @@ package exercicio7;
 //
 //Saída esperada:
 //
-//
-//Copiar
 //Reserva realizada
 //Reserva feita para o dia 10/04
 //Reserva feita para o dia 12/04 para 4 pessoas
@@ -35,6 +31,14 @@ package exercicio7;
 
 public class Main {
     public static void main(String[] args) {
+
+        Reserva r = new Reserva();
+        r.reservar();
+        r.reservar("10/04");
+        r.reservar("12/04", 4);
+
+        Reserva vip = new ReservaVip();
+        vip.reservar();
 
     }
 }
