@@ -11,6 +11,7 @@ public class Luz implements Controlavel {
         }else {
             System.out.println("Luz ligada.");
             ligado = true;
+
         }
     }
 
