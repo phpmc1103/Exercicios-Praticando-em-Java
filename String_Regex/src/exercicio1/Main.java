@@ -26,6 +26,6 @@ import java.util.Scanner;
         nome = nome.trim();
 
         System.out.println("Nome sem espaços: "+ nome);
-
+        scan.close();
     }
 }
